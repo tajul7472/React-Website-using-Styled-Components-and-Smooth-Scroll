@@ -8,6 +8,7 @@ justify-content: center;
 align-items: center;
 padding: 0 30px;
 z-index:1;
+margin-bottom: 80px;
 
 :before{
     content: '';
@@ -31,12 +32,12 @@ right: 0;
 bottom: 0;
 left: 0;
 width: 100%;
-height: 100%;
+height:550px;
 overflow: hidden;
 `
 export const VideoBg = styled.video`
 width: 100%;
-height: 100%;
+height:550px;
 -o-object-fit:cover;
 object-fit: cover;
 background: #232a34;

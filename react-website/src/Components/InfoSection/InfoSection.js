@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '../ButtonElements'
+// import {ReactComponent as ReactLogo} from '../../images/car1.svg'
 
 import { InfoContainer, InfoWrapper,InfoRow,Column1,TextWrapper,TopLine,Heading,Subtitle,BtnWrap,Column2,ImgWrap,Img} from './InfoElements'
 
@@ -24,6 +25,7 @@ const InfoSection = ({lightBg,id,imgStart,topLine,lightText,darkText,headline,de
                     <Column2>
                     <ImgWrap>
                     <Img src={img} alt={alt}/>
+                    {/* <ReactLogo/> */}
                     </ImgWrap>
                     </Column2>
                 </InfoRow> 

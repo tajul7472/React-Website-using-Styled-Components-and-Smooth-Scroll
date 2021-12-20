@@ -11,12 +11,13 @@ background: ${({lightBg})=>(lightBg ? '#040B13' : '010606')};
 export const InfoWrapper = styled.div`
 display: grid;
 z-index:1;
-height: 960px;
+height: 600px;
 width: 100%;
 max-width: 1100px;
 margin-right: auto;
 margin-left: auto;
 padding: 0 24px;
+
 /* justify-content: center; */
 `
 export const InfoRow = styled.div`
@@ -74,7 +75,7 @@ max-width: 440px;
 margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
-color: ${({darkText})=>(darkText ? '#01bf71':'#fff')};
+color: ${({darkText})=>(darkText ? '#01bf71':'#000')};
 `
 export const BtnWrap = styled.div`
 display: flex;

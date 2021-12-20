@@ -1,14 +1,18 @@
+
+
 export const homeObjone ={
     id: 'about',
-    lightBg: false,
-    lightText:true,
+    lightBg: true,
+    lightText:false,
     lightTextDesc:true,
     topLine:'Premium Bank',
     headline:'Unlimited Transactions with zero fees',
     description:'Get access to our excutive app that allows you to send unlimited transaction without getting charged any fees',
     buttonLabel:'Get started',
     imgStart:false,
-    img:require ('../../images/car.png'),
+    img:require ('../../images/car2.png'),
+    // img:require (`${image1}` ),
+    
     alt:'Car',
     dark:true,
     primary:true,
@@ -18,8 +22,8 @@ export const homeObjone ={
 
 export const homeObjTwo ={
     id: 'discover',
-    lightBg: true,
-    lightText:false,
+    lightBg: false,
+    lightText:true,
     lightTextDesc:false,
     topLine:'Unlimited Access',
     headline:'Login to your account at any time',
@@ -30,14 +34,14 @@ export const homeObjTwo ={
     alt:'bank',
     dark:false,
     primary:false,
-    darkText:true
+    darkText:false
 
 }
 
 export const homeObjThree ={
     id: 'signup',
     lightBg: false,
-    lightText:false,
+    lightText:true,
     lightTextDesc:false,
     topLine:'Join our Team',
     headline:'Creating an account is extremely easy',
@@ -46,8 +50,8 @@ export const homeObjThree ={
     imgStart:false,
     img:require ('../../images/card.png'),
     alt:'Car',
-    dark:true,
-    primary:true,
-    darkText:true
+    dark:false,
+    primary:false,
+    darkText:false
 
 }
