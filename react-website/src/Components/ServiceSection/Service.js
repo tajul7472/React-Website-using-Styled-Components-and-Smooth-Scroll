@@ -12,7 +12,7 @@ const Service = () => {
           { id: 3,imgage:Icon3, heading: "Jane Doe" ,description:"We help reduce your fees and increase your overall revenue."},
         ];
     return (
-        <ServiceContainer id="serevices">
+        <ServiceContainer id="services">
             <ServicesH1>Our Services</ServicesH1>
             <ServicesWrapper>
                 {data.map((item)=>(
